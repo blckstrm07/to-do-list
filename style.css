@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html, body {
+    height: 100%;
+
+}
+
+.add-task-btn {
+  background-color: #a3ffb2;
+  color: #1f5e1e;
+  padding: 1rem 1.5rem;
+  border: 5px solid #50D04D;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+input{
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border: 3px solid black;
+    border-radius: 16px;
+    font-size: 1.5rem;
+}
+
+.add-task {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap:1rem;
+    margin-top: 3rem;
+
+}
