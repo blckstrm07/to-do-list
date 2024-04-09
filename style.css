@@ -39,10 +39,15 @@ input {
 
 .card {
   min-height: 18rem;
-  min-width: 18rem;
-  background-color: blue;
-  border: solid;
+  width: 18rem;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
+
 .task-container {
   display: flex;
   gap: 3rem;
@@ -50,4 +55,24 @@ input {
   margin-left: 6rem;
   margin-right: 6rem;
   flex-wrap: wrap;
+}
+
+.task-title {
+  font-size: 2rem;
+  text-wrap: wrap;
+}
+
+.task-date {
+  opacity: 75%;
+  margin-top: 0.5rem;
+}
+
+.trash-button {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  border-radius: 8px;
+  border: none;
 }
